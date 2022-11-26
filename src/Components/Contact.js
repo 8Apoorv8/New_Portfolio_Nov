@@ -29,6 +29,7 @@ const Contact = () => {
         </label>
         <input
           type="text"
+          name="name"
           placeholder="Type your Name"
           className="text-center  px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400  focus:outline-none focus:border-sky-300 focus:ring-1 focus:ring-sky-300  disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none  invalid:border-pink-500 invalid:text-pink-600
           focus:invalid:border-pink-500 focus:invalid:ring-pink-500"
@@ -40,6 +41,7 @@ const Contact = () => {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           type="email"
+          name="email"
           placeholder="Type your Email"
           className="text-center px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400   focus:outline-none focus:border-sky-300 focus:ring-1 focus:ring-sky-300  disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none  invalid:border-pink-500 invalid:text-pink-600
           focus:invalid:border-pink-500 focus:invalid:ring-pink-500"
@@ -48,10 +50,11 @@ const Contact = () => {
           Message
         </label>
         <textarea
-          name=""
+          name="message"
           id=""
           cols="30"
           rows="10"
+
           placeholder="Write a Message"
           className="mt-2 text-center px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400   focus:outline-none focus:border-sky-300 focus:ring-1 focus:ring-sky-300  disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none  invalid:border-pink-500 invalid:text-pink-600
           focus:invalid:border-pink-500 focus:invalid:ring-pink-500"
