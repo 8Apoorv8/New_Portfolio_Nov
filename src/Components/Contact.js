@@ -11,7 +11,8 @@ const Contact = () => {
       className="bg-blue-200 absolute top-0 w-full h-full -z-20  "
     >
       <form
-        action=""
+        action="https://getform.io/f/7c841d34-782a-4e51-a95c-9c965f17b40b"
+        method="POST"
         className=" p-8  md:px-10 lg:px-20   mt-20 grid place-content-center"
       >
         <h1 className="text-center mb-2 text-3xl font-semibold overflow-hidden">
